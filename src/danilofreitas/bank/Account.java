@@ -38,6 +38,10 @@ public class Account {
             return true;
         }
 
+        public double getBalance(){
+            return balance;
+        }
+
     @Override
     public String toString() {
         String result = "The bank account of " + this.name + " \n ag: " + this.ag + " \n cc: " + this.cc + "\n have $ " + balance;
